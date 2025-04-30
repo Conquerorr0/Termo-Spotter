@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Yeni renk paleti -->
+    <color name="primary">#3A59D1</color>
+    <color name="secondary">#3D90D7</color>
+    <color name="tertiary">#7AC6D2</color>
+    <color name="background">#B5FCCD</color>
+</resources>

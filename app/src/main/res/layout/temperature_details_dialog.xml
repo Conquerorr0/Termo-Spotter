@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/detailsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Measurement Details"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/temperatureTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/temperatureDetailValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="36.5°C"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/dateTimeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Measurement Time:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/dateDetailValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="12.04.2023"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/timeDetailValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="15:30:45"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/statusTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/statusDetailValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Normal Temperature"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/closeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Close"/>
+
+</LinearLayout> 
